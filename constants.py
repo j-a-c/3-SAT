@@ -1,0 +1,28 @@
+ # Main parameters
+NUM_TRIALS = 30
+NUM_FUNC_EVALS = 100000
+
+# Input file constants
+FILE_PREFIX = 'uf200-'
+FILE_SUFFIX = '.txt'
+FILE_START = 1
+NUM_FILES = 10
+
+# Input constants
+NUM_CLAUSES = 860
+NUM_VARIABLES = 200
+
+# SA parameters
+T_INITIAL = 1462.18
+ALPHA = 0.999962
+BETA = 1.0
+M_INITIAL = 1.0
+MAX_TIME = NUM_FUNC_EVALS
+
+# SA results constants
+SA_ITERATION_INDEX = 0
+SA_BEST_COST_INDEX = 2
+
+# rand parameters
+RAND_TRIALS = MAX_TIME
+
